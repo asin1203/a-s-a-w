@@ -1,0 +1,114 @@
+.navbar-custom { 
+  background-color: #a68cda;
+    opacity: 0.5;
+    
+}
+.navbar-custom a{
+    color: #55368e;
+    font-weight: 500;
+}
+
+#btn-cus{
+   background-color: #a68cda;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: 8px;
+   color: #8565c4;
+   font-size: 2rem;
+   text-shadow: 2px 2px 3px rgb(255, 255, 255);
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=password], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 10px 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  label{
+    margin: 8px 8px;
+    color: #8565c4;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px  seashell;
+  }
+
+  body, html {
+    height: 100%;
+  }
+  
+  .bg {
+    /* The image used */
+     background-image: url("bg.jpg"); 
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bgg {
+    /* The image used */
+     background-image: url("bg1.jpg"); 
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #jumbo{
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  }
+  body{
+    background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  #details{
+    color: seashell;
+  }
+  #btn1 {
+    color: seashell;
+  }
+  #btn2 {
+    color: seashell;
+  }
+ #content{
+  font-family:"Reenie Beanie",arial,sans-serif;
+  font-size:180%;
+ }
+ .tit{
+  font-family: 'Dancing Script', cursive;
+ }
