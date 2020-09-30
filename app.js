@@ -8,7 +8,7 @@ var express = require("express"),
     bodyParser = require("body-parser"),
     path = require("path");
 
-mongoose.connect('mongodb://localhost/app', {
+mongoose.connect('mongodb+srv://aastha:Aastha@1203@cluster0.dwjbn.mongodb.net/<dbname>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
@@ -49,13 +49,13 @@ passport.deserializeUser(User.deserializeUser());
 //var newUser = new User({username : "peachgoma"});
 //var password = "peachgoma";
 //User.register(newUser, password, function(err, user){
-//      if(err)
-//      {
-//          console.log(err);
-//      }else{
-//          console.log("created!");
-//      }
-//  });
+     // if(err)
+    //  {
+     //     console.log(err);
+      //}else{
+     //     console.log("created!");
+     // }
+  //});
 
 app.get('/login', function (req, res) {
     res.render("login", { user: req.user });
