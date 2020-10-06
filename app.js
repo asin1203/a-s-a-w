@@ -8,7 +8,7 @@ var express = require("express"),
     bodyParser = require("body-parser"),
     path = require("path");
 
-mongoose.connect('mongodb+srv://aastha:Aastha@1203@cluster0.dwjbn.mongodb.net/<dbname>?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://aastha:*******@cluster0.dwjbn.mongodb.net/<dbname>?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
